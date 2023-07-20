@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon32.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <title>Gabriel Silva - Portfolio ⚙</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">O que faço</a>
+      <a href="#education">Sobre mim</a>
+
+      <span class="active-nav"></span>
+    </nav>
+
+    <div class="logo-container">
+      <a href="#" class="logo">Gabriel Zolk</a>
+      <h3><em>Freelance&Developer</em></h3>
+    </div>
+
+
+    <div class="bx bx-menu" id="box-icons"></div>
+
+    <nav class="navbar">
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <span class="active-nav"></span>
+    </nav>
+
+  </header>
+
+  <section class="home" id="home">
+    <div class="image"></div>
+    <img class="bg" src="./assets/homebg.png" />
+    <img class="macbook" src="./assets/macbook.png" />
+    <div class="home-content">
+      <h1>
+        <strong>Prazer, <span><span class="seletor"></span>Gabriel</span></strong>
+      </h1>
+      <p>
+        Engenheiro de software Fullstack com foco em Frontend. Possuo experiência em desenvolvimento Web, Mobile e design responsivo. Ao longo do tempo tive a oportunidade de criar aplicações em diferentes nichos, como de saúde, tecnologia, negócios, marketing, entre outros. Sou um grande entusiasta da tecnologia e UX/UI.
+      </p>
+      <div class="btn-box btns">
+        <a href="#contact" class="btn hire-btn">Me contrate</a>
+        <a href="https://api.whatsapp.com/send/?phone=%2B5511950674214&text&type=phone_number&app_absent=0" target="_blank" class="btn center">Fale Comigo<i class='bx bx-link-external'></i></a>
+      </div>
+    </div>
+    <div class="home-icons">
+      <a href="https://www.linkedin.com/in/gabriel-zolk/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/GabrielZolk" target="_blank"><i class='bx bxl-github'></i></a>
+      <a href="https://api.whatsapp.com/send/?phone=%2B5511950674214&text&type=phone_number&app_absent=0" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="heading">O que <span>Faço</span></h2>
+    <img class="lineb" src="./assets/lineb.png" />
+    <div class="about-img">
+      <img src="./assets/about.png" alt="about avatar">
+      <span class="circle"></span>
+    </div>
+    <div class="about-content">
+      <div class="service one">
+        <img src="./assets/design.svg">
+        <p>Desenvolvimento <br> Web e Mobile</p>
+      </div>
+      <div class="service two">
+        <img src="./assets/game-dev.svg">
+        <p>Soluções</p>
+      </div>
+      <div class="service three">
+        <img src="./assets/intelligence.svg">
+        <p>Análise de dados</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="strong" id="education">
+    <img class="liney" src="./assets/linex.png" />
+    <h2 class="heading">Pontos <span>Fortes</span></h2>
+    <div class="strong-content">
+      <div class="slider-container">
+        <div class="slider-box mySwiper">
+          <div class="slider-content swiper-wrapper">
+            <div class="slider-card swiper-slide">
+              <div class="slider-card-content">
+                <div class="slider-card-image">
+                  <i class='bx bx-code-alt' style="color: orange; font-size: 4rem;"></i>
+                </div>
+                <div class="slider-card-text">
+                  <h4>Código Limpo</h4>
+                  <p>Além de seguir as melhores práticas do mercado para alcançar o alto desempenho, utilizo ferramentas que medem velocidade e boas práticas</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-card swiper-slide">
+              <div class="slider-card-content">
+                <div class="slider-card-image">
+                  <i class='bx bx-fast-forward-circle' style="color: orange; font-size: 4rem;"></i>
+                </div>
+                <div class="slider-card-text">
+                  <h4>Métodos ágeis</h4>
+                  <p>Uso técnicas e planos aprimorados que aceleram o fluxo da produção. Por meio de retornos e interações regulares, asseguro a rapidez e eficácia do processo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-card swiper-slide">
+              <div class="slider-card-content">
+                <div class="slider-card-image">
+                  <i class='bx bx-desktop' style="color: orange; font-size: 4rem;"></i>
+                </div>
+                <div class="slider-card-text">
+                  <h4>Layout de alta qualidade</h4>
+                  <p>Como desenvolvedor web e entusiasta UX/UI, prezo pelo design fiel ao protótipo e pela ótima experiência do usuário, assim como acessibilidade e usabilidade.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="slider-container">
+        <div class="slider-box mySwiper">
+          <div class="slider-content swiper-wrapper">
+            <div class="slider-card swiper-slide">
+              <div class="slider-card-content">
+                <div class="slider-card-text">
+                  <a href="./assets/cert.png" target="_blank">
+                    <img src="./assets/cert.png" style="width: 110px;" />
+                  </a>                  
+                  <h4>Desenvolvedor Certificado</h4>
+                  <p>Certificado como desenvolvedor web fullstack com foco em frontend pela Gama Academy que possui muitos ex-alunos em empresas como Nubank.</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-card swiper-slide">
+              <div class="slider-card-content">
+                <a href="./assets/css.png" target="_blank">
+                  <img src="./assets/css.png" style="width: 110px;" />
+                </a>   
+                <div class="slider-card-text">
+                  <h4>Entre os 5% melhores</h4>
+                  <p>Fiquei entre os 5% melhores na avaliação de estilização do LinkedIn entre 2 milhões de avaliações.</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-card swiper-slide">
+              <div class="slider-card-content">
+                <div class="slider-card-image">
+                  <i class='bx bxs-info-circle' style="color: orange; font-size: 4rem;"></i>
+                </div>
+                <div class="slider-card-text">
+                  <h4>Mais de 70 repositórios</h4>
+                  <p>Possuo mais de 70 repositórios no github com os mais variados tipos de projeto e diferentes ferramentas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills" id="skills">
+      <h1>Ferramentas</h1>
+      <div class="slider-container-skill">
+        <div class="slider-box-skill mySwiper2">
+          <div class="slider-content-skill swiper-wrapper">
+            <div class="slider-card-skill swiper-slide">
+              <div class="slider-card-skill-content">
+                <div class="slider-card-skill-image">
+                  <i class="bx bxl-html5" style="color: orange; font-size: 6rem;"></i>
+                  <h4>HTML</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bxl-css3" style="color: rgb(0, 140, 255);font-size: 6rem;"></i>
+                  <h4>CSS</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bxl-javascript" style="color: gold; font-size: 6rem;"></i>
+                  <h4>JavaScript</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bxl-react" style="color: rgb(0, 225, 255);font-size: 6rem;"></i>
+                  <h4>React</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bxl-typescript" style="color: blue; font-size: 6rem;"></i>
+                  <h4>TypeScript</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bxl-sass" style="color: rgb(226, 82, 207); font-size: 6rem;"></i>
+                  SASS
+                </div>
+                <div class="slider-card-skill-image">
+                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="80">
+                    <title></title>
+                    <path fill="#A0EBF9" d="M2.648 11.678c-1.038-1.81-1.249-3.504-.511-4.781.988-1.712 3.468-2.31 6.604-1.739a.322.322 0 1 1-.115.633c-2.9-.528-5.111.005-5.932 1.428-.605 1.047-.423 2.509.512 4.14a.322.322 0 1 1-.558.32zm14.92-6.069c1.835.024 3.156.596 3.751 1.626.82 1.419.18 3.595-1.718 5.837a.322.322 0 1 0 .49.416c2.054-2.426 2.771-4.866 1.785-6.575-.726-1.257-2.26-1.92-4.299-1.947a.322.322 0 1 0-.008.643zm-1.854 15.239a.322.322 0 0 0-.442.11c-.934 1.553-2.08 2.399-3.26 2.399-1.642 0-3.208-1.647-4.2-4.418a.322.322 0 1 0-.606.217C8.279 22.154 10.036 24 12.01 24c1.44 0 2.773-.982 3.813-2.71a.322.322 0 0 0-.11-.442zm7.356-2.594a1.54 1.54 0 0 1-2.436 1.25c-2.455 1.445-7.146.71-11.56-1.84-1.88-1.085-3.527-2.392-4.795-3.785a.322.322 0 1 1 .476-.433c1.222 1.343 2.817 2.609 4.64 3.661 4.167 2.406 8.553 3.12 10.797 1.906a1.54 1.54 0 1 1 2.878-.759zm-19.062 0a1.54 1.54 0 1 1-2.285-1.345c-.233-2.877 2.79-6.734 7.36-9.372 1.898-1.096 3.874-1.874 5.731-2.271a.322.322 0 0 1 .135.628c-1.79.384-3.703 1.137-5.545 2.2-4.304 2.485-7.148 6.067-7.048 8.627.038-.003.075-.006.113-.006.85 0 1.54.69 1.54 1.54zM10.472 1.54a1.54 1.54 0 0 1 3.078 0c0 .023-.002.045-.003.067 2.549 1.317 4.32 5.81 4.32 11.003 0 2.135-.298 4.184-.854 5.96a.322.322 0 1 1-.614-.192c.536-1.712.825-3.697.825-5.768 0-4.89-1.626-9.095-3.847-10.363a1.538 1.538 0 0 1-2.905-.707zm1.304 9.981a1.114 1.114 0 1 0 .47 2.178 1.114 1.114 0 0 0-.47-2.178z"></path>
+                  </svg>
+                  <h4>Electron</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bx-expand-horizontal" style="color: rgb(167, 6, 207); font-size: 6rem;"></i>
+                  <h4>Express</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class='bx bxl-mongodb' style="color: rgb(72, 201, 100); font-size: 6rem;"></i>
+                  <h4>MongoDB</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class='bx bxl-firebase' style="color: rgb(240, 157, 4); font-size: 6rem;"></i>
+                  <h4>Firebase</h4>
+                </div>
+              </div>
+            </div>
+            <div class="slider-card-skill swiper-slide">
+              <div class="slider-card-skill-content">
+                <div class="slider-card-skill-image">
+                  <i style="font-size: 4.4rem;">💅</i>
+                  <h4>Styled Components</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bxl-redux" style="color: rgb(113, 0, 243); font-size: 6rem;"></i>
+                  <h4>Redux</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bxl-bootstrap" style="color: rgb(149, 0, 248); font-size: 6rem;"></i>
+                  <h4>Bootstrap</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bxl-tailwind-css" style="color: rgb(0, 248, 174); font-size: 6rem;"></i>
+                  <h4>Tailwind</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class='bx bxl-unity' style="color: gray; font-size: 6rem;"></i>
+                  <h4>Unity</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class='bx bxl-wordpress' style="color: white; font-size: 6rem;"></i>
+                  <h4>Wordpress</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bxl-jquery" style="color: #1169AE; font-size: 6rem;"></i>
+                  <h4>jQuery</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bxs-data" style="color: yellow; font-size: 6rem;"></i>
+                  <h4>MySQL</h4>
+                </div>
+                <div class="slider-card-skill-image">
+                  <i class="bx bxl-nodejs" style="color: green; font-size: 6rem;"></i>
+                  <h4>NodeJS</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-skill"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="portfolio-header">
+      <h2 class="heading">Meu <span style="color: black;">Portfolio</span></h2>
+    </div>
+
+    <div class="slider-container-portfolio">
+      <div class="slider-box-portfolio mySwiper3">
+        <div class="slider-content-portfolio swiper-wrapper">
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/apollo.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Apollo NFT</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">React-Router</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/apollo" class="portfolio-link">GitHub</a>
+                <a href="https://apollo-murex.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/autoflux.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Autoflux</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">React-Router</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/autoflux" class="portfolio-link">GitHub</a>
+                <a href="https://autoflux.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/baianotv.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Baiano TV</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">React-Router</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/idltv" class="portfolio-link">GitHub</a>
+                <a href="https://idltv.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/blockchainws.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>BlockchainWS</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">React-Router</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/blockchainws" class="portfolio-link">GitHub</a>
+                <a href="https://blockchainws.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/dreamcloud.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Dreamcloud</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">React-Router</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/dreamcloud" class="portfolio-link">GitHub</a>
+                <a href="https://dreamcloud.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/gpttail.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>ChatGPT Clone</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">NextJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">Tailwind</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/chatgpt3-next" class="portfolio-link">GitHub</a>
+                <a href="https://chatgpt3-next.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/pigz.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Pigz Store</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">AdobeXD</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/pigz-store" class="portfolio-link">GitHub</a>
+                <a href="https://pigz-store.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/webtech.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Webtech</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/webtech" class="portfolio-link">GitHub</a>
+                <a href="https://webtech-omega.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/weatherag.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Weather Time</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">Angular 14</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/weather-angular" class="portfolio-link">GitHub</a>
+                <a href="https://weather-angular-eta.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/vidaemdia.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Prontuário Digital</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">React-Router</span>
+                  <span class="portfilio-project-info-label">Bootstrap</span>
+                  <span class="portfilio-project-info-label">Redux</span>
+                  <span class="portfilio-project-info-label">MySQL</span>
+                  <span class="portfilio-project-info-label">Express</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/Prontuario-Digital--front-" class="portfolio-link">GitHub</a>
+                <a href="https://vida-em-dia.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/tesla.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Tesla Clone</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">ContextAPI</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/tesla-clone" class="portfolio-link">GitHub</a>
+                <a href="https://tesla-clone-ten-sigma.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="slider-container-portfolio">
+      <div class="slider-box-portfolio mySwiper3">
+        <div class="slider-content-portfolio swiper-wrapper">
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/port1.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Portfolio 1.0</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">Styled-Components</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/portfolio-1" class="portfolio-link">GitHub</a>
+                <a href="https://portfolio-gabrieleagle.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/port2.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Portfolio 2.0</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">HTML5</span>
+                  <span class="portfilio-project-info-label">CSS3</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/new-portfolio" class="portfolio-link">GitHub</a>
+                <a href="https://gabrielzolk.github.io/new-portfolio/ " class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/port3.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Portfolio 3.0</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                </div>
+                <a href="" class="portfolio-link">GitHub</a>
+                <a href="" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/riotclient.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Riot Games Client</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">HTML</span>
+                  <span class="portfilio-project-info-label">CSS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/riot-client" class="portfolio-link">GitHub</a>
+                <a href="https://gabrielzolk.github.io/riot-client/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/scrjs.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Carrinho de compras</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">ContextAPI</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/shopping-cart" class="portfolio-link">GitHub</a>
+                <a href="https://shopping-cart-xi-ebon.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/shero.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Superhero Deck</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">Styled-Components</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/superhero-deck" class="portfolio-link">GitHub</a>
+                <a href="https://superhero-deck.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/skatepark.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Skatepark Events</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">HTML</span>
+                  <span class="portfilio-project-info-label">CSS</span>
+                  <span class="portfilio-project-info-label">Bootstrap</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/skatepark-bootstrap-libs" class="portfolio-link">GitHub</a>
+                <a href="https://gabrielzolk.github.io/skatepark-bootstrap-libs/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/soundgarden.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>SoundGarden Events</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">HTML</span>
+                  <span class="portfilio-project-info-label">CSS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                </div>
+                <a href="" class="portfolio-link">GitHub</a>
+                <a href="" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/spaceport.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Portfolio 3D</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">JavaScript</span>
+                  <span class="portfilio-project-info-label">Three.js</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/space-portfolio3d" class="portfolio-link">GitHub</a>
+                <a href="https://space-portfolio3d.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-card-portfolio swiper-slide">
+            <div class="slider-card-content-portfolio">
+              <div class="slider-card-image-portfolio">
+                <img src="./assets/projects/sweden.png" />
+              </div>
+              <div class="slider-card-text-portfolio">
+                <h2>Sweden</h2>
+                <div class="labels-container">
+                  <span class="portfilio-project-info-label">ReactJS</span>
+                  <span class="portfilio-project-info-label">CSS</span>
+                </div>
+                <a href="https://github.com/GabrielZolk/sweden" class="portfolio-link">GitHub</a>
+                <a href="https://sweden-nine.vercel.app/" class="portfolio-link">Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Me <span>Contate</span></h2>
+
+    <form action="https://formspree.io/f/xoqzakwp" method="POST" id="contact-form">
+      <input type="hidden" name="_subject" value="New Message from Portfolio" />
+
+      <div class="input-box">
+        <div class="input-field">
+          <input type="text" name="name" placeholder="Name" required>
+          <span class="focus"></span>
+        </div>
+        <div class="input-field">
+          <input type="email" name="_replyto" placeholder="Email" required>
+          <span class="focus"></span>
+        </div>
+      </div>
+
+      <div class="input-box">
+        <div class="input-field">
+          <input type="tel" name="phone" placeholder="Tel" required>
+          <span class="focus"></span>
+        </div>
+        <div class="input-field">
+          <input type="text" name="_subject" placeholder="Subject" required>
+          <span class="focus"></span>
+        </div>
+      </div>
+
+      <div class="textarea-field">
+        <textarea name="message" cols="30" rows="10" placeholder="Type Your Message Here" required></textarea>
+        <span class="focus"></span>
+      </div>
+
+      <div class="btn-box btns submit">
+        <button type="submit" class="btn">Enviar <i class='bx bxs-envelope' style="font-size: 1.5rem; color: white; margin-left: 5px;"></i></button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Gabriel Zolk Freelancer Portfolio &copy;</p>
+    </div>
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com/in/gabriel-zolk/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/GabrielZolk" target="_blank"><i class='bx bxl-github'></i></a>
+      <a href="https://api.whatsapp.com/send/?phone=%2B5511950674214&text&type=phone_number&app_absent=0" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+    </div>
+    <div class="footer-icon">
+      <a href="#"><i class='bx bx-chevrons-up'></i></a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
