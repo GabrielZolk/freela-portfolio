@@ -458,13 +458,23 @@ span {
 .portfolio {
     min-height: auto;
     padding: 0;
-    height: 100vh;
+    height: auto;
     background-color: white;
 }
 
 .portfolio .portfolio-header {
     background-color: var(--primary-color);
     padding: 20px 0;
+}
+
+
+.drag-image-hidden {
+    text-align: center;
+    animation: opacityBlink 3s linear infinite;
+}
+
+.drag-image-hidden img {
+    width: 70px;
 }
 
 .portfolio .portfolio-header h2 {
@@ -846,7 +856,7 @@ span {
         font-size: .9rem;
         margin: 20px 0 40px;
     }
-    
+
     .seletor {
         top: -44%;
         background-size: 55px;
@@ -868,12 +878,13 @@ span {
     .contact form .input-box .input-field {
         width: 100%;
     }
-    
+
     .slider-card {
         background-color: black;
     }
 
-    .slider-card-text p, .slider-card-text h4 {
+    .slider-card-text p,
+    .slider-card-text h4 {
         color: white;
     }
 
@@ -895,7 +906,7 @@ span {
     .home-content h1 {
         font-size: 2rem;
     }
-    
+
     .home-content .btn-box .btn {
         width: 100px;
     }
@@ -912,7 +923,7 @@ span {
     .about-img img {
         width: 80%;
     }
-    
+
     .about-img {
         width: 16rem;
         height: 16rem;
@@ -937,9 +948,6 @@ span {
     .slider-card {
         padding: 70px;
     }
-
-
-
 
     .portfolio-header h2 {
         font-size: 2.5rem;
@@ -989,5 +997,36 @@ span {
 
     100% {
         text-shadow: none;
+    }
+}
+
+@keyframes opacityBlink {
+
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
     }
 }
