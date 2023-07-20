@@ -377,6 +377,7 @@ span {
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
+    overflow: hidden;
 }
 
 .strong-content {
@@ -417,6 +418,7 @@ span {
 
 .skills {
     margin-top: 70px;
+    overflow: hidden;
 }
 
 .skills h1 {
@@ -467,6 +469,10 @@ span {
 
 .portfolio .portfolio-header h2 {
     margin-bottom: 0;
+}
+
+.slider-container-portfolio {
+    overflow: hidden;
 }
 
 .slider-card-image-portfolio {
@@ -931,6 +937,9 @@ span {
     .slider-card {
         padding: 70px;
     }
+
+
+
 
     .portfolio-header h2 {
         font-size: 2.5rem;

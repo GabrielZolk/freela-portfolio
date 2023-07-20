@@ -67,12 +67,12 @@ var swiper = new Swiper(".mySwiper2", {
   
 var swiper = new Swiper(".mySwiper3", {
     slidesPerView: 1,
-    spaceBetween: 30,
+    spaceBetween: 10,
     loop: true,
     breakpoints: {
       760: {
         slidesPerView: 3,
-        spaceBetween: 20
+        spaceBetween: 30
       },
       465: {
         slidesPerView: 2,
